@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DiscordProjectSettings">
+    <option name="show" value="PROJECT_FILES" />
+    <option name="nameOverrideText" value="Dashboard" />
+    <option name="description" value="평범한 개인 대시보드 만들기" />
+  </component>
+</project>

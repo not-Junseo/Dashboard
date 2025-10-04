@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'STIX Two Text', serif;
+    margin: 0; 
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    place-items: center;
+    color: #f2f2f2;
+}
+
+/* 메인 카드 디자인 */
+#main-card {
+    background-color: rgba(0, 0, 0, 0.233);
+    backdrop-filter:blur(30px);
+    border-radius: 30px;
+    width: 75%;
+    height: 85vh;
+    margin-top: 5vh;
+    place-items: center;
+}
+
+#title-text {
+    font-size: 40px;
+    color: #f2f2f2;
+    padding-top: 3vh;
+    margin: 0 0 2vh;
+}
+
+/* 시간 디자인 */
+#time {
+    font-size: 100px;
+    padding-top: 17vh;
+    margin: 0;
+}
+/* 명언 카드 디자인*/
+#good-text {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#good-message {
+    font-size: 17px;
+    margin: 0;
+}
+#writer {
+    text-align: right;
+    color: #cecece;
+}
+/* 정보 카드 디자인 */
+#card-div {
+    width: 75%;
+    display: flex;
+    gap: 10%;
+    padding-top: 10vh;
+}
+.inf-card {
+    height: 20vh;
+    width: 45%;
+    outline: #8c8c8c solid 1px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #e0e0e0;
+    padding-left: 5%;
+    margin: 1.5vh 0 0;
+}
+
+.card-main {
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
